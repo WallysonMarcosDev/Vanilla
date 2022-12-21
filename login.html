@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>&#128584 &#128073 &#128072</title>
+
+    <script defer src="/js/script.js"></script>
+
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    .text {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 5rem;
+        color: #fff;
+        border: 5px solid #fff;
+        padding: 2rem 4rem;
+        border-radius: 15px;
+    }
+
+    .gradient {
+        display: flex;
+        align-items: center;
+        height: 70vh;
+        width: 100vh;
+        margin-left: 30vh;
+        background: linear-gradient(45deg, #DC0000, #9d0a0a, #e45d42, #d39a8e);
+        background-size: 300% 300%; 
+        animation: colors 5s ease infinite;
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    @keyframes colors {
+       0% {
+        background-position: 0% 50%;
+       }
+       
+       50% {
+        background-position: 100% 50%;
+       }
+
+       100% {
+        background-position: 0% 50%;
+       }
+    }
+
+    .btn {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        padding: 40px 50px;
+        width: 30%;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 15px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+        color: #fff;
+        animation: colors 2s ease infinite;
+        margin-top: 10vh;
+        font-size: 30px;
+        
+    }
+    @keyframes colors {
+       0% {
+        background-position: 0% 50%;
+       }
+       
+       50% {
+        background-position: 100% 50%;
+       }
+
+       100% {
+        background-position: 0% 50%;
+       }
+    }
+
+</style>
+<body class="gradient">
+    <h1 class="text">Nossa Retrospectiva de 2022</h1>
+    <div onclick="redirecionar()" class="btn">Entrar</div>
+</body>
+</html>
