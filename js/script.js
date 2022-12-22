@@ -1,3 +1,3 @@
 function redirecionar(){
-    window.location = "/pages/page.html";
+    window.location = "./pages/page.html";
 }
